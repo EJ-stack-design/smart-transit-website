@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Privacy Policy | Smart Transit</title>
+    <meta name="description" content="Learn how Smart Transit collects, uses, and protects passenger location information and other data used by the service.">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">S</span>
+                <span>Smart<span class="logo-highlight">Transit</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#features">Features</a></li>
+                <li><a href="download.html">Download App</a></li>
+                <li><a href="user-manual.html">User Manual</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="nav-button">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="privacy-hero">
+            <div class="container">
+                <span class="eyebrow">SMART TRANSIT · DATA TRANSPARENCY</span>
+                <h1>Privacy <span>Policy</span></h1>
+                <p>This page explains what information Smart Transit uses, why location sharing works in the background, and how passengers can control it.</p>
+                <div class="privacy-updated">Effective date: November 24, 2026</div>
+            </div>
+        </section>
+
+        <section class="privacy-content-section section-padding">
+            <div class="container privacy-layout">
+                <aside class="privacy-toc" aria-label="Privacy policy sections">
+                    <h2>On this page</h2>
+                    <a href="#information">Information we use</a>
+                    <a href="#location">Location sharing</a>
+                    <a href="#purpose">How we use information</a>
+                    <a href="#access">Who can access it</a>
+                    <a href="#providers">Service providers</a>
+                    <a href="#retention">Storage and retention</a>
+                    <a href="#choices">Your choices</a>
+                    <a href="#security">Security</a>
+                    <a href="#rights">Your privacy rights</a>
+                    <a href="#contact">Contact us</a>
+                </aside>
+
+                <article class="privacy-article">
+                    <div class="privacy-intro">
+                        <p>Smart Transit is a transportation information and monitoring service designed around the Silago Terminal–Sogod Terminal route in Southern Leyte. We respect passenger privacy and explain below how information is handled when you use the mobile application and related services.</p>
+                        <p><strong>Location sharing is optional and controlled by the passenger.</strong> The app uses location information for the features described in this notice only when the relevant permissions and sharing controls are enabled.</p>
+                    </div>
+
+                    <section id="information" class="privacy-section">
+                        <h2>1. Information We Use</h2>
+                        <p>Depending on the features you use, Smart Transit may process the following information:</p>
+                        <ul>
+                            <li><strong>Passenger location:</strong> GPS coordinates (latitude and longitude) and the time an update is received when you enable location sharing.</li>
+                            <li><strong>Device and session information:</strong> a device identifier and session token used to recognize your device, authenticate location updates, and restore the sharing session.</li>
+                            <li><strong>Trip selections:</strong> selected travel direction, pickup stop, destination stop, and vehicle selection used for route-related information and notifications.</li>
+                            <li><strong>Notification information:</strong> a Firebase Cloud Messaging registration token and notification preferences needed to deliver app notifications.</li>
+                            <li><strong>Vehicle information:</strong> vehicle GPS position and related operational details, such as speed, status, and estimated arrival information, supplied to the system by its vehicle-tracking components.</li>
+                        </ul>
+                    </section>
+
+                    <section id="location" class="privacy-section privacy-highlight-section">
+                        <h2>2. How Passenger Location Sharing Works</h2>
+                        <p>When you choose <strong>Enable Location Sharing</strong> and grant the required location permission, Smart Transit obtains your device's location and sends updates to the Smart Transit backend so that the location can be shown on the authorized operator dashboard.</p>
+                        <p><strong>Background location:</strong> while sharing is enabled, location updates may continue when the app is minimized, running in the background, or closed from the recent-apps screen, depending on your device, operating-system settings, permissions, and background-service behavior. This is intentional so that an opted-in passenger's pickup location can remain available without keeping the app open.</p>
+                        <p>Location sharing is not intended to be permanently on by default. Use the sharing control in the app dashboard to stop sharing. You can also revoke the app's location permission in your phone settings. Revoking permission may stop future location updates.</p>
+                        <div class="privacy-callout">
+                            <strong>Remember:</strong> closing the app does not necessarily stop location sharing. If the sharing status is ON, use the in-app control to turn it OFF when you no longer want to share your location.
+                        </div>
+                    </section>
+
+                    <section id="purpose" class="privacy-section">
+                        <h2>3. How We Use Information</h2>
+                        <p>We use information to:</p>
+                        <ul>
+                            <li>show opted-in passenger pickup locations to authorized operators;</li>
+                            <li>support passenger pickup coordination and transportation monitoring;</li>
+                            <li>display vehicle locations, route progress, and estimated arrival information;</li>
+                            <li>send notifications related to a passenger's selected vehicle, pickup stop, and destination;</li>
+                            <li>authenticate active sessions, prevent duplicate active sharing sessions for the same device, and troubleshoot service issues; and</li>
+                            <li>maintain and improve the operation and reliability of Smart Transit.</li>
+                        </ul>
+                        <p>Smart Transit does not need passenger location sharing to be enabled simply to read this website. The location-sharing feature is part of the mobile application.</p>
+                    </section>
+
+                    <section id="access" class="privacy-section">
+                        <h2>4. Who Can Access Passenger Location</h2>
+                        <p>Passenger location updates submitted while sharing is enabled are made available to authenticated Smart Transit operators through the operator dashboard for transportation monitoring and pickup coordination. The information is not intended to be publicly displayed to ordinary website visitors.</p>
+                        <p>Access to operator functions is protected by operator authentication. Passengers should keep their device and app access secure.</p>
+                    </section>
+
+                    <section id="providers" class="privacy-section">
+                        <h2>5. Service Providers and Third-Party Services</h2>
+                        <p>Smart Transit relies on technology providers to operate parts of the service. These may include Render for backend hosting, Firebase Cloud Messaging for push notifications, Aiven for system database hosting, and OpenStreetMap/OSRM services for map display and route information.</p>
+                        <p>These providers may process technical information needed to provide their services. Their own privacy terms and practices may also apply when their services are used. We do not control the independent privacy practices of third-party providers.</p>
+                    </section>
+
+                    <section id="retention" class="privacy-section">
+                        <h2>6. Storage and Retention</h2>
+                        <p>Passenger location sharing is handled through temporary, active server-side sessions. In the current implementation, a passenger session is designed to expire after two hours. Location entries that have not received a fresh update for approximately two minutes are removed from the operator's active location view. When a passenger successfully turns sharing off, the active location entry and associated session are removed.</p>
+                        <p>Technical records held by hosting, notification, or other service providers may be subject to those providers' operational retention practices. Retention periods may change as the system is developed.</p>
+                    </section>
+
+                    <section id="choices" class="privacy-section">
+                        <h2>7. Your Choices and Controls</h2>
+                        <ul>
+                            <li>Enable or disable passenger location sharing using the control on the app dashboard.</li>
+                            <li>Manage or revoke location permissions through your Android device settings.</li>
+                            <li>Manage notification permissions through your device settings.</li>
+                            <li>Contact the Smart Transit team to ask questions or make a privacy-related request.</li>
+                        </ul>
+                    </section>
+
+                    <section id="security" class="privacy-section">
+                        <h2>8. Security</h2>
+                        <p>We use measures intended to protect information handled by Smart Transit, including authenticated operator access and session-based authorization for passenger location updates. No internet transmission or electronic storage method can be guaranteed to be completely secure.</p>
+                    </section>
+
+                    <section id="rights" class="privacy-section">
+                        <h2>9. Your Privacy Rights</h2>
+                        <p>If you are in the Philippines, you may have rights under the Data Privacy Act of 2012 (Republic Act No. 10173), including rights to be informed, access or correct personal information, and raise concerns about its processing, subject to applicable law and circumstances. You may also withdraw permission for location sharing through the app or your device settings.</p>
+                        <p>To make a privacy-related request, contact the Smart Transit team using the details below. We may need enough information to understand and verify your request.</p>
+                    </section>
+
+                    <section id="contact" class="privacy-section">
+                        <h2>10. Contact Us</h2>
+                        <p>For questions, concerns, or requests about this Privacy Policy or the handling of information in Smart Transit, contact:</p>
+                        <div class="privacy-contact-card">
+                            <strong>Smart Transit Team</strong>
+                            <a href="mailto:smarttransit101@gmail.com">smarttransit101@gmail.com</a>
+                            <a href="tel:+639512259616">0951 225 9616</a>
+                            <span>Southern Leyte, Philippines</span>
+                        </div>
+                    </section>
+
+                    <p class="privacy-disclaimer">This notice describes the current Smart Transit features and implementation. It should be reviewed and updated as the app, backend, data practices, and service providers change.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="../index.html" class="logo footer-logo">
+                    <span class="logo-icon">S</span>
+                    <span>Smart<span class="logo-highlight">Transit</span></span>
+                </a>
+                <p>Making public transportation smarter through technology and innovation.</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Explore</h4>
+                    <a href="../index.html">Home</a>
+                    <a href="../index.html#features">Features</a>
+                    <a href="about.html">About Us</a>
+                </div>
+                <div>
+                    <h4>Passenger Resources</h4>
+                    <a href="download.html">Download App</a>
+                    <a href="user-manual.html">User Manual</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© <span id="currentYear"></span> Smart Transit. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
