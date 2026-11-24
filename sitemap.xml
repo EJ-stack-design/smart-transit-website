@@ -1,0 +1,29 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://smart-transit-website.netlify.app/</loc>
+    </url>
+
+    <url>
+        <loc>https://smart-transit-website.netlify.app/pages/download.html</loc>
+    </url>
+
+    <url>
+        <loc>https://smart-transit-website.netlify.app/pages/user-manual.html</loc>
+    </url>
+
+    <url>
+        <loc>https://smart-transit-website.netlify.app/pages/about.html</loc>
+    </url>
+
+    <url>
+        <loc>https://smart-transit-website.netlify.app/pages/contact.html</loc>
+    </url>
+
+    <url>
+        <loc>https://smart-transit-website.netlify.app/pages/privacy-policy.html</loc>
+    </url>
+
+</urlset>
